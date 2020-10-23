@@ -18,7 +18,8 @@ conda install pip
 pip install requirements -r
  ```
 
-####Download the URLs
+####Download the URLs 
+Link for the URLs file available soon
 ```shell
 mkdir data
 mkdir data/processed

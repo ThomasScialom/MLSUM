@@ -9,7 +9,7 @@ It is also available upon request, you can reach us at thomas@recital.ai
 
 ## Instructions and code to rebuild the dataset from the archived web pages:
 
-####Setup the environment  
+#### Setup the environment  
 ```shell
 cd MLSUM
 conda create --name mlsum
@@ -18,7 +18,7 @@ conda install pip
 pip install requirements -r
  ```
 
-####Download the URLs 
+#### Download the URLs 
 
 Link for the URLs file available soon
 
@@ -29,15 +29,19 @@ mkdir data/urls
 wget data/urls/XXX
  ```
     
-####Scrap all the MLSUM data on web.archive
+#### Scrap all the MLSUM data on web.archive
+
 Not that it is possible that some URLs fail to be processed for various reasons. All those failed URLs are listed in the 'data/processed/*.errors.txt' files. 
+
 ```shell
 python run_all.py
 ```
 
-####Reproducing the results
+#### Reproducing the results
+
 It seems that for Russian, the results are very different given the implementation of ROUGE metric.
 To reproduce the one used in the paper, install the following ROUGE package:
+
 ```shell
 pip install rouge==0.3.1
 ```  

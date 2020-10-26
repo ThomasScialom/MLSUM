@@ -23,7 +23,7 @@ pip install requirements -r
 The list of URLs is available here:
 
 ```shell
-https://drive.google.com/file/d/1lzCeYljwabuy7d6qChIJOMTA6X3of_bN/view?usp=sharing
+https://drive.google.com/file/d/1qViYZwl82yyyTE5mKryhVWbFao4Ck-7g/view?usp=sharing
 ```
 
 In the main folder MLSUM, create a folder data and unzip the URL folder there. Create also an empty folder processed, in which the data will be stored. 

@@ -20,13 +20,19 @@ pip install requirements -r
 
 #### Download the URLs 
 
-Link for the URLs file available soon
+The list of URLs is available here:
+
+```shell
+https://drive.google.com/file/d/1lzCeYljwabuy7d6qChIJOMTA6X3of_bN/view?usp=sharing
+```
+
+In the main folder MLSUM, create a folder data and unzip the URL folder there. Create also an empty folder processed, in which the data will be stored. 
 
 ```shell
 mkdir data
-mkdir data/processed
-mkdir data/urls
-wget data/urls/XXX
+cd data
+unzip urls.zip
+mkdir processed
  ```
     
 #### Scrap all the MLSUM data on web.archive
@@ -37,7 +43,7 @@ Not that it is possible that some URLs fail to be processed for various reasons.
 python run_all.py
 ```
 
-#### Reproducing the results
+## Reproducing the results
 
 It seems that for Russian, the results are very different given the implementation of ROUGE metric.
 To reproduce the one used in the paper, install the following ROUGE package:

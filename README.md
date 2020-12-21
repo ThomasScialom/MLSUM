@@ -45,6 +45,15 @@ python run_all.py
 
 ## Reproducing the results
 
+### Training BERT-gen 
+
+We used the [UniLM code](https://github.com/microsoft/unilm/tree/master/unilm-v1#abstractive-summarization---cnn--daily-mail) for abstractive summarization with the default parameters except:
+- num_train_epochs set to 5 (instead of 30)
+- model_recover_path is simply the [multilingal BERT checkpoint](https://huggingface.co/bert-base-multilingual-uncased/tree/main) (instead of unilmv1-large-cased.bin)
+
+
+### Russian Score:
+
 It seems that for Russian, the results are very different given the implementation of ROUGE metric.
 To reproduce the one used in the paper, install the following ROUGE package:
 

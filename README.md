@@ -7,6 +7,13 @@ Copyright belongs to the original copyright holders.
 
 It is also available upon request, you can reach us at thomas@recital.ai
 
+## Outputs used in the paper 
+
+We make available the [outputs](https://drive.google.com/file/d/1YFlBhEO-yLv28xtAEX28p1JxWfjBKNzn/view?usp=sharing) from our models so anyone can fairly compare. 
+Note that if you obtain a different ROUGE, it might be due to the library: 
+- for BERT-Gen, we used the [UNILM Rouge](https://github.com/microsoft/unilm/blob/master/unilm-v1/src/cnndm/eval.py)
+- for the other moels we used the [ROUGE](https://pypi.org/project/rouge/) pypi library, version 0.3.1
+
 ## Instructions and code to rebuild the dataset from the archived web pages:
 
 #### Setup the environment  

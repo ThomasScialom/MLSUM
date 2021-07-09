@@ -5,7 +5,7 @@ The original dataset as used in the paper is available on HuggingFace datasets (
 Usage of dataset is restricted to non-commercial research purposes only.
 Copyright belongs to the original copyright holders.
 
-It is also available upon request, you can reach us at thomas@recital.ai
+It is also available upon request, you can reach us at t.scialom@gmail.com
 
 ## Outputs used in the paper 
 
